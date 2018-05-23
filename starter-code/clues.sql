@@ -50,12 +50,15 @@ AND NOT name = 'Serravalle';
 SELECT * FROM country
 WHERE code = 'Brazil';
 -- RESULT: 211
+SELECT name FROM city
+WHERE id = 211;
+-- RESULT: Brasilia
 
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
  -- the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the
  -- landing dock.
-
+-- NOT SURE WHAT TO SEARCH FOR IN THIS CLUE
 
 
 -- Clue #8: Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but
@@ -70,7 +73,8 @@ WHERE code = 'Brazil';
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
+SELECT name from city
+WHERE population = 91084;
+-- RESULT: Santa Monica
 
-
-
--- She's in ____________________________!
+-- She's in __Santa Monica__!
